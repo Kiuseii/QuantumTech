@@ -1,0 +1,5 @@
+{
+  "variants": {
+      "": { "model": "quantumtech:block/photonic_panel" }
+  }
+}
