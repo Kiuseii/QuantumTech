@@ -1,19 +1,21 @@
 {
   "parent": "block/block",
   "textures": {
-    "top": "minecraft:block/obsidian",
-    "side": "minecraft:block/iron_block",
-    "bottom": "minecraft:block/iron_block"
+    "top": "quantumtech:block/photonic_panel/photonic_panel_top",
+    "side": "quantumtech:block/photonic_panel/photonic_panel_side",
+    "north": "quantumtech:block/photonic_panel/photonic_panel_ns",
+    "south": "quantumtech:block/photonic_panel/photonic_panel_ns",
+    "bottom": "quantumtech:block/photonic_panel/photonic_panel_bottom"
   },
   "elements": [
     {
       "from": [0, 0, 0],
       "to": [16, 6, 16],
       "faces": {
-        "down": {"uv": [0, 10, 16, 16], "texture": "#bottom"},
-        "up": {"uv": [0, 0, 16, 6], "texture": "#top"},
-        "north": {"uv": [0, 10, 16, 16], "texture": "#side"},
-        "south": {"uv": [0, 10, 16, 16], "texture": "#side"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+        "north": {"uv": [0, 10, 16, 16], "texture": "#north"},
+        "south": {"uv": [0, 10, 16, 16], "texture": "#south"},
         "west": {"uv": [0, 10, 16, 16], "texture": "#side"},
         "east": {"uv": [0, 10, 16, 16], "texture": "#side"}
       }
