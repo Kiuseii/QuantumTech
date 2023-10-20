@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LDL",
+    "RRR",
+    "IRI"
+  ],
+  "key": {
+    "L": { "item": "minecraft:lapis_lazuli" },
+    "R": { "item": "minecraft:redstone" },
+    "D": { "item": "minecraft:diamond" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "quantumtech:solar_cell",
+    "count": 1
+  }
+}

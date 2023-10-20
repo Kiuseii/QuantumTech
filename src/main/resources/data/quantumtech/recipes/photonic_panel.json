@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "ICI",
+    "IBI"
+  ],
+  "key": {
+    "S": { "item": "quantumtech:solar_screen" },
+    "C": { "item": "quantumtech:basic_chip" },
+    "B": { "item": "quantumtech:basic_battery" },
+    "I": { "item": "minecraft:iron_block" }
+  },
+  "result": {
+    "item": "quantumtech:photonic_panel",
+    "count": 1
+  }
+}

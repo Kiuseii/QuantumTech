@@ -1,5 +1,8 @@
 {
   "variants": {
-      "": { "model": "quantumtech:block/photonic_panel" }
+    "facing=north": { "model": "quantumtech:block/photonic_panel" },
+    "facing=south": { "model": "quantumtech:block/photonic_panel", "y": 180 },
+    "facing=west": { "model": "quantumtech:block/photonic_panel", "y": 270 },
+    "facing=east": { "model": "quantumtech:block/photonic_panel", "y": 90 }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SSS",
+    "RIR"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glass_pane" },
+    "S": { "item": "quantumtech:solar_cell" },
+    "R": { "item": "minecraft:redstone" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "quantumtech:solar_screen",
+    "count": 1
+  }
+}

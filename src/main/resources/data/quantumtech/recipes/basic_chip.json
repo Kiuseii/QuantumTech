@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "RIR",
+    "GRG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "I": { "item": "quantumtech:iron_ingot" }
+  },
+  "result": {
+    "item": "quantumtech:photonic_panel",
+    "count": 1
+  }
+}

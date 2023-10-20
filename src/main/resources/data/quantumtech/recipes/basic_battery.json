@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "IBI",
+    "IGI"
+  ],
+  "key": {
+    "B": { "item": "minecraft:redstone_block" },
+    "I": { "item": "minecraft:iron_block" },
+    "G": { "item": "minecraft:gold_block" }
+  },
+  "result": {
+    "item": "quantumtech:photonic_panel",
+    "count": 1
+  }
+}
